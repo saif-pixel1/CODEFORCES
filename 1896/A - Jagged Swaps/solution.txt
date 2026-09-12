@@ -1,0 +1,28 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve(a, n):
+    cond = True
+    while cond:
+        cond = False 
+        for i in range(1, n - 1):
+            if a[i - 1] < a[i] and a[i] > a[i + 1]:
+                a[i], a[i + 1] = a[i + 1], a[i]
+                cond = True
+ 
+    if a == sorted(a):
+        print("YES")
+    else:
+        print("NO")
+ 
+def main():
+    t = int(input())
+ 
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+        solve(a, n)
+ 
+if __name__ == "__main__":
+    main()
