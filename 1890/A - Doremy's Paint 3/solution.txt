@@ -1,0 +1,21 @@
+import sys
+from collections import Counter
+ 
+input = sys.stdin.readline
+ 
+def main():
+    t = int(input())
+ 
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+ 
+        counts = list(Counter(a).values())
+ 
+        if len(counts) <= 2 and max(counts) - min(counts) <= 1:
+            print("Yes")
+        else:
+            print("No")
+ 
+if __name__ == "__main__":
+    main()
