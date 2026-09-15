@@ -1,21 +1,41 @@
 import sys
-from collections import Counter
  
 input = sys.stdin.readline
  
-def main():
-    t = int(input())
+def solve(n,nums):
+    if n == 2 or n == 1:
+        return "YES"
+    freq = {}
+    for i in nums:
+        if i not in freq and len(freq)==2:
+            return "NO"
+        freq[i] = freq.get(i,0)+1
+    count = list(freq.values())
+    
+    if n%2 == 0:
+        if len(count) == 1:
+            return "YES"
+        elif count[0] == count[1]:
+            return "YES"
+        else:
+            return "NO"
+    else:
+        if len(count)==1:
+            return "YES"
+        elif abs(count[0] - count[1]) == 1:
+            return "YES"
+        else:
+            return "NO"
+       
+           
  
+def main():
+    # t = 1
+    t = int(input())
     for _ in range(t):
         n = int(input())
-        a = list(map(int, input().split()))
- 
-        counts = list(Counter(a).values())
- 
-        if len(counts) <= 2 and max(counts) - min(counts) <= 1:
-            print("Yes")
-        else:
-            print("No")
+        nums = list(map(int, input().split(" ")))
+        print(solve(n, nums))
  
 if __name__ == "__main__":
     main()
