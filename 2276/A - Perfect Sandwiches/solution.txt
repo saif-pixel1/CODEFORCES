@@ -1,0 +1,24 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    a, b = map(int, input().split())
+ 
+    
+    if a <= b:
+        return -1
+    if b<a-b:
+        return b
+    else:
+        return a-b
+       
+ 
+ 
+def main():
+    t = int(input())
+    for _ in range(t):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
