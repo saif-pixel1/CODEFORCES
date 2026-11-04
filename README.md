@@ -6,13 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 16 | 12 |
+| 17 | 13 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
+- [Uncategorized](#uncategorized) (1)
 - [brute force](#brute-force) (4)
 - [constructive algorithms](#constructive-algorithms) (2)
 - [data structures](#data-structures) (1)
@@ -32,6 +33,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Java 21](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/158/A%20-%20Next%20Round/solution.java) |
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2283B | [Rhythmic String](https://codeforces.com/contest/2283/problem/B) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2283/B%20-%20Rhythmic%20String/solution.txt) |
 
 ### brute force
 
