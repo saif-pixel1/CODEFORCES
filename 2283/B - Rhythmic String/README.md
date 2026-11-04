@@ -1,0 +1,30 @@
+<h2><a href="https://codeforces.com/contest/2283/problem/B" target="_blank" rel="noopener noreferrer">2283B — Rhythmic String</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | Unrated |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2283B](https://codeforces.com/contest/2283/problem/B) |
+
+## Topics
+_No tags available_
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Rhythmic String</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>We call a binary string $$$s$$$ of length $$$m$$$ <span class="tex-font-style-it">periodic</span> if there exists an integer $$$k$$$ ($$$1 \le k  \lt  m$$$) such that $$$s_i = s_{i+k}$$$ for every $$$i$$$ from $$$1$$$ to $$$m-k$$$ inclusive. The characters of the string are numbered starting from $$$1$$$. The smallest such $$$k$$$ is called the <span class="tex-font-style-it">period</span> of the string.</p><p>We call a string $$$s$$$ <span class="tex-font-style-it">rhythmic</span> if it is periodic and among the first $$$p$$$ characters of the string (where $$$p$$$ is the period of the string), there is exactly one <span class="tex-font-style-tt">1</span>.</p><p>For example, the string <span class="tex-font-style-tt">0010010</span> is periodic with period $$$p=3$$$ and rhythmic: among the first three characters there is exactly one <span class="tex-font-style-tt">1</span>. The string <span class="tex-font-style-tt">0110110</span> is also periodic with period $$$p=3$$$, but it is not rhythmic: among the first three characters there are two <span class="tex-font-style-tt">1</span>s.</p><p>You are given an array $$$a$$$ of $$$n$$$ integers and a string $$$s$$$, initially consisting of $$$10^{18}$$$ zeros. For each element $$$a_i$$$, all characters of the string whose indices are divisible by $$$a_i$$$ are replaced by ones. In other words, the characters at positions $$$a_i,2a_i,3a_i,\ldots$$$, not exceeding the length of the string, become ones. Replacing a character with one again does nothing.</p><p>For example, if $$$a=[3,7,5,3]$$$, then the string $$$s$$$ will begin with <span class="tex-font-style-tt">001011101101011...</span></p><p>Before performing these changes, you may remove any elements from array $$$a$$$. Find the minimum number of elements that need to be removed so that the resulting string $$$s$$$ is rhythmic.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer $$$t$$$ ($$$1 \le t \le 5000$$$) — the number of test cases.</p><p>The following descriptions of the test cases follow.</p><p>The first line of each test case contains an integer $$$n$$$ ($$$1 \le n \le 5000$$$) — the length of array $$$a$$$.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1,a_2,\ldots,a_n$$$ ($$$1 \le a_i \le 10^9$$$) — the elements of the array.</p><p>Additional constraints on the input:</p><ul> <li> the sum of $$$n$$$ over all test cases does not exceed $$$5000$$$. </li></ul></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output one integer — the minimum number of elements that need to be removed from the array so that string $$$s$$$ is rhythmic.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007226603844261665" id="id009370979578061082" class="input-output-copier">Copy</div></div><pre data-content="4
+4
+3 7 5 3
+3
+4 8 12
+4
+6 10 20 30
+3
+2 3 5
+" id="id007226603844261665"><div class="test-example-line test-example-line-even test-example-line-0">4</div><div class="test-example-line test-example-line-odd test-example-line-1">4</div><div class="test-example-line test-example-line-odd test-example-line-1">3 7 5 3</div><div class="test-example-line test-example-line-even test-example-line-2">3</div><div class="test-example-line test-example-line-even test-example-line-2">4 8 12</div><div class="test-example-line test-example-line-odd test-example-line-3">4</div><div class="test-example-line test-example-line-odd test-example-line-3">6 10 20 30</div><div class="test-example-line test-example-line-even test-example-line-4">3</div><div class="test-example-line test-example-line-even test-example-line-4">2 3 5</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006582073199882458" id="id000532830289207038" class="input-output-copier">Copy</div></div><pre data-content="2
+0
+1
+2
+" id="id006582073199882458"><div class="test-example-line test-example-line-odd test-example-line-1">2</div><div class="test-example-line test-example-line-even test-example-line-2">0</div><div class="test-example-line test-example-line-odd test-example-line-3">1</div><div class="test-example-line test-example-line-even test-example-line-4">2</div></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, you can remove elements $$$7$$$ and $$$5$$$. Then the string will begin with <span class="tex-font-style-tt">001001001...</span> and will be rhythmic with period $$$3$$$.</p><p>In the second test case, nothing needs to be removed. The string will begin with <span class="tex-font-style-tt">000100010001...</span> and will be rhythmic with period $$$4$$$.</p><p>In the third test case, it is enough to remove element $$$6$$$. The resulting string will be rhythmic with period $$$10$$$.</p><p>In the fourth test case, you need to keep any one element of the array.</p></div>
