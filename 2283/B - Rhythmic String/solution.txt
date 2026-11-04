@@ -1,0 +1,25 @@
+import sys
+input = sys.stdin.readline
+ 
+def solve():
+    n = int(input())
+    a = list(map(int, input().split()))
+ 
+    sett = set(a)
+    rt = n
+ 
+    for i in sett:
+        keep = 0
+        for x in a:
+            if x % i== 0:
+                keep += 1
+ 
+        rt = min(rt, n - keep)
+    print(rt)
+ 
+def main():
+    t = int(input())
+    for _ in range(t):
+        solve()
+if __name__ == "__main__":
+    main()
