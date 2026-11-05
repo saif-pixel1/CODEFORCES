@@ -1,0 +1,24 @@
+import sys
+ 
+input = sys.stdin.readline
+def solve():
+    n = input()
+    sb = list(map(int, input().split()))
+    l = 1
+    result = [sb[0]]
+    while l<len(sb):
+        if sb[l-1] > sb[l]:
+            result.append(sb[l])
+        result.append(sb[l])
+        l += 1
+    print(len(result))
+    print(*result)
+ 
+def main():
+ 
+    t = int(input())
+    for _ in range(t):
+        solve()
+ 
+if __name__ == "__main__":
+    main()
