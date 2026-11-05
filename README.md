@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 20 | 13 |
+| 21 | 13 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (1)
 - [brute force](#brute-force) (5)
-- [constructive algorithms](#constructive-algorithms) (2)
+- [constructive algorithms](#constructive-algorithms) (3)
 - [data structures](#data-structures) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
@@ -54,6 +54,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1862B | [Sequence Game](https://codeforces.com/contest/1862/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1862/B%20-%20Sequence%20Game/solution.txt) |
 | 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.py) |
 
