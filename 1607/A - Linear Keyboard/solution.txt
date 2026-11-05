@@ -1,0 +1,25 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    key = input().strip()
+    s = input().strip()
+    map = {}
+    for i in range(len(key)):
+        map[key[i]] = i+1
+        
+    j = 1; unit = 0
+    while j<len(s):
+        unit+=abs(map.get(s[j-1]) - map.get(s[j]))
+        j+=1
+    return unit
+        
+def main():
+ 
+    t = int(input())
+    for _ in range(t):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
