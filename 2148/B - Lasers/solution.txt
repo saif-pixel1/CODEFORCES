@@ -1,0 +1,17 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    n,m,x,y = map(int,input().split())
+    dim_n = input()
+    dim_m = input()
+    return n+m
+def main():
+    
+    t = int(input())
+    for _ in range(t):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
