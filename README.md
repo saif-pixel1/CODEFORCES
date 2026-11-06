@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 22 | 14 |
+| 23 | 14 |
 
 ---
 
@@ -22,7 +22,7 @@
 - [greedy](#greedy) (7)
 - [implementation](#implementation) (6)
 - [math](#math) (5)
-- [number theory](#number-theory) (1)
+- [number theory](#number-theory) (2)
 - [sortings](#sortings) (2)
 - [strings](#strings) (4)
 - [two pointers](#two-pointers) (1)
@@ -114,6 +114,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 630A | [Again Twenty Five!](https://codeforces.com/contest/630/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/630/A%20-%20Again%20Twenty%20Five!/solution.txt) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.py) |
 
 ### sortings
