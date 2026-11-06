@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 21 | 13 |
+| 22 | 14 |
 
 ---
 
@@ -19,12 +19,13 @@
 - [data structures](#data-structures) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (6)
+- [greedy](#greedy) (7)
 - [implementation](#implementation) (6)
 - [math](#math) (5)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (2)
 - [strings](#strings) (4)
+- [two pointers](#two-pointers) (1)
 
 ---
 
@@ -85,6 +86,7 @@
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.py) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1901/A%20-%20Line%20Trip/solution.py) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.py) |
+| 1968B | [Prefiquence](https://codeforces.com/contest/1968/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1968/B%20-%20Prefiquence/solution.txt) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.txt) |
 
 ### implementation
@@ -129,6 +131,12 @@
 | 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.txt) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.py) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1968B | [Prefiquence](https://codeforces.com/contest/1968/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1968/B%20-%20Prefiquence/solution.txt) |
 
 ---
 
