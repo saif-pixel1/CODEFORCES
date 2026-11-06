@@ -1,0 +1,28 @@
+<h2><a href="https://codeforces.com/contest/2284/problem/A1" target="_blank" rel="noopener noreferrer">2284A1 — 15K4JR3B (Easy Version)</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | Unrated |
+| **Language** | PyPy 3-64 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2284A1](https://codeforces.com/contest/2284/problem/A1) |
+
+## Topics
+_No tags available_
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A1. 15K4JR3B (Easy Version)</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><div class="epigraph"><div class="epigraph-text"><span class="tex-font-style-it">— Did you know if you connect Park Kultury, a point not in the northeast, and one more on a map, you'll look like an idiot?</span><p><span class="tex-font-style-it">— No, I did not know that. Is that true?</span></p></div><div class="epigraph-source"></div></div><p><span class="tex-font-style-bf">This is the easy version of the problem. The difference between the versions is that in this version, in one operation, the coordinate of a point changes by exactly $$$1$$$.</span></p><p>Unemployed $$$\ast$$$ Angel places three points $$$A$$$, $$$B$$$, and $$$C$$$ at the origin.</p><p>You must perform exactly $$$n$$$ operations of the following type: choose one of these points and increase or decrease one of its coordinates by $$$1$$$. In other words, if the chosen point has coordinates $$$(x, y)$$$, in one operation you may move it to $$$(x + 1, y)$$$, $$$(x - 1, y)$$$, $$$(x, y + 1)$$$, or $$$(x, y - 1)$$$.</p><p>Unemployed $$$\ast$$$ Angel asks you to find the maximum <span class="tex-font-style-bf">doubled</span> area of triangle $$$ABC$$$ after all operations are performed. As she is your idol, you cannot refuse her.</p><p>Since Unemployed $$$\ast$$$ Angel is very smart, she can show that the value of interest is always an integer.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 1000$$$). The description of the test cases follows.</p><p>The only line of each test case contains one integer $$$n$$$ ($$$2 \le n \le 1000$$$) — the number of operations.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output one integer — the maximum doubled area of triangle $$$ABC$$$.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007062284435622126" id="id004794918688050669" class="input-output-copier">Copy</div></div><pre data-content="5
+2
+5
+15
+43
+769
+" id="id007062284435622126"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">2</div><div class="test-example-line test-example-line-even test-example-line-2">5</div><div class="test-example-line test-example-line-odd test-example-line-3">15</div><div class="test-example-line test-example-line-even test-example-line-4">43</div><div class="test-example-line test-example-line-odd test-example-line-5">769</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0009825831699672516" id="id00976488510313243" class="input-output-copier">Copy</div></div><pre data-content="1
+6
+56
+462
+147840
+" id="id0009825831699672516"><div class="test-example-line test-example-line-odd test-example-line-1">1</div><div class="test-example-line test-example-line-even test-example-line-2">6</div><div class="test-example-line test-example-line-odd test-example-line-3">56</div><div class="test-example-line test-example-line-even test-example-line-4">462</div><div class="test-example-line test-example-line-odd test-example-line-5">147840</div></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, increase the $$$x$$$-coordinate of $$$B$$$ by $$$1$$$, then increase the $$$y$$$-coordinate of $$$C$$$ by $$$1$$$. After these $$$2$$$ operations, the points are $$$A = (0, 0)$$$, $$$B = (1, 0)$$$, and $$$C = (0, 1)$$$. The doubled area of the resulting triangle is $$$1$$$.</p><p> </p><table class="tex-tabular bordertable"><tbody><tr><td class="tex-tabular-text-align-left">                  </td><td class="tex-tabular-text-align-left"><img class="tex-graphics" src="https://espresso.codeforces.com/4c998241d39e82fe3e7ba23c6fb235198519aff8.png" style="max-width: 100.0%;max-height: 100.0%;" width="203px"></td></tr></tbody></table><p></p><p>In the second test case, decrease the $$$x$$$-coordinate of $$$A$$$ by $$$1$$$, then increase the $$$x$$$-coordinate of $$$B$$$ by $$$1$$$ twice, and finally increase the $$$y$$$-coordinate of $$$C$$$ by $$$1$$$ twice. After these $$$5$$$ operations, the points are $$$A = (-1, 0)$$$, $$$B = (2, 0)$$$, and $$$C = (0, 2)$$$. The doubled area of the resulting triangle is $$$6$$$.</p><p> </p><table class="tex-tabular bordertable"><tbody><tr><td class="tex-tabular-text-align-left">                  </td><td class="tex-tabular-text-align-left"><img class="tex-graphics" src="https://espresso.codeforces.com/90659838f1746dfc778471ce3755f50d51ad0661.png" style="max-width: 100.0%;max-height: 100.0%;" width="203px"></td></tr></tbody></table><p></p></div>
