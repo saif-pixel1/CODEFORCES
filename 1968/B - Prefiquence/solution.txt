@@ -1,0 +1,28 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    m,n = map(int,input().split())
+    a = input().strip()
+    b = input().strip()
+ 
+    L = 0 ; R = 0
+    # if m == 1:
+    #     return 1
+    while L<m and R<n:
+        if a[L] == b[R]:
+            L += 1
+            R += 1
+        else:
+            R += 1
+    return L
+ 
+def main():
+ 
+    t = int(input())
+    for _ in range(t):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
