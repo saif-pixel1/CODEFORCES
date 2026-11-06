@@ -1,0 +1,48 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    n, k = map(int, input().split())
+    arr = list(map(int, input().split()))
+ 
+    arr.sort()
+ 
+    g = arr[n-k:]
+    b = arr[:n-k]
+ 
+    if len(b) == 0:
+        print("YES")
+        print(*g)
+        return
+ 
+    if sum(g) <= k * b[-1]:
+        print("NO")
+        return
+ 
+    arr1 = g + b[::-1]
+ 
+    l = 1
+    p = 1
+    total = arr1[0]
+ 
+    while l < n:
+        if arr1[l] * l >= total:
+            p += 1
+ 
+        total += arr1[l]
+        l += 1
+ 
+    if p == k:
+        print("YES")
+        print(*arr1)
+    else:
+        print("NO")
+ 
+def main():
+    t = int(input())
+    for _ in range(t):
+        solve()
+ 
+if __name__ == "__main__":
+    main()
