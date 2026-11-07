@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 26 | 14 |
+| 28 | 14 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (1)
-- [Uncategorized](#uncategorized) (3)
+- [Uncategorized](#uncategorized) (5)
 - [brute force](#brute-force) (5)
 - [constructive algorithms](#constructive-algorithms) (3)
 - [data structures](#data-structures) (1)
@@ -39,6 +39,8 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2280A | [Are They the Same?](https://codeforces.com/contest/2280/problem/A) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2280/A%20-%20Are%20They%20the%20Same%3F/solution.txt) |
+| 2280C | [Reverse and Double](https://codeforces.com/contest/2280/problem/C) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2280/C%20-%20Reverse%20and%20Double/solution.txt) |
 | 2283B | [Rhythmic String](https://codeforces.com/contest/2283/problem/B) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2283/B%20-%20Rhythmic%20String/solution.txt) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.txt) |
 | 2284B | [Introduction to the Niche Internet](https://codeforces.com/contest/2284/problem/B) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2284/B%20-%20Introduction%20to%20the%20Niche%20Internet/solution.txt) |
