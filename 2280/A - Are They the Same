@@ -1,38 +1,41 @@
-<h2><a href="https://codeforces.com/contest/2280/problem/A" target="_blank" rel="noopener noreferrer">2280A — Are They the Same?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | Unrated |
-| **Language** | PyPy 3-64 |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 2280A](https://codeforces.com/contest/2280/problem/A) |
-
-## Topics
-_No tags available_
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Are They the Same?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>  </p><p>You are given two integer arrays $$$a$$$ and $$$b$$$, each of length $$$n$$$. Furthermore, you are given an integer $$$k$$$.</p><p>You are allowed to perform any of the following operations <span class="tex-font-style-bf">zero or more times</span>: </p><ul> <li> Choose an index $$$i$$$ ($$$1\le i\le n$$$) and set $$$a[i] := 2\cdot a[i] + k$$$. </li><li> Choose an index $$$i$$$ ($$$1\le i\le n$$$) and set $$$a[i] := a[i] + 2$$$. </li><li> Choose an index $$$i$$$ ($$$1\le i\le n$$$) and set $$$a[i] := a[i] - 2$$$. </li></ul><p>Determine if there is a way to apply these operations such that the resulting array $$$a$$$ is a permutation$$$^{\dagger}$$$ of $$$b$$$. Note that there are no restrictions on the values of the array during the process: elements may become negative or arbitrarily large.</p><p>$$$^{\dagger}$$$An array $$$a$$$ is a permutation of an array $$$b$$$ if $$$a$$$ consists of the elements of $$$b$$$ in arbitrary order. For example, $$$[4,2,3,4]$$$ is a permutation of $$$[3,2,4,4]$$$, while $$$[1,2,2]$$$ is not a permutation of $$$[1,2,3]$$$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 500$$$). The description of the test cases follows.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$k$$$ ($$$1\le n\le 100$$$, $$$0\le k\le 10^6$$$) — $$$n$$$ is the length of $$$a$$$ and $$$b$$$.</p><p>The second line of each testcase contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$0 \le a_i \le 10^6$$$).</p><p>The third line of each testcase contains $$$n$$$ integers $$$b_1, b_2, \ldots, b_n$$$ ($$$0 \le b_i \le 10^6$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print "<span class="tex-font-style-tt">YES</span>" if it is possible to transform $$$a$$$ into a permutation of $$$b$$$, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p><p>You can output the answer in any case (upper or lower). For example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", "<span class="tex-font-style-tt">Yes</span>", and "<span class="tex-font-style-tt">YES</span>" will be recognized as positive responses.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id002499646362450063" id="id002248913076394018" class="input-output-copier">Copy</div></div><pre data-content="5
-3 4
-1 2 7
-5 3 8
-1 1
-0
-1
-1 1
-1
-0
-6 1
-0 0 0 0 0 0
-1 3 7 15 31 63
-2 1000000
-999999 1
-1000000 1
-" id="id002499646362450063"><div class="test-example-line test-example-line-even test-example-line-0">5</div><div class="test-example-line test-example-line-odd test-example-line-1">3 4</div><div class="test-example-line test-example-line-odd test-example-line-1">1 2 7</div><div class="test-example-line test-example-line-odd test-example-line-1">5 3 8</div><div class="test-example-line test-example-line-even test-example-line-2">1 1</div><div class="test-example-line test-example-line-even test-example-line-2">0</div><div class="test-example-line test-example-line-even test-example-line-2">1</div><div class="test-example-line test-example-line-odd test-example-line-3">1 1</div><div class="test-example-line test-example-line-odd test-example-line-3">1</div><div class="test-example-line test-example-line-odd test-example-line-3">0</div><div class="test-example-line test-example-line-even test-example-line-4">6 1</div><div class="test-example-line test-example-line-even test-example-line-4">0 0 0 0 0 0</div><div class="test-example-line test-example-line-even test-example-line-4">1 3 7 15 31 63</div><div class="test-example-line test-example-line-odd test-example-line-5">2 1000000</div><div class="test-example-line test-example-line-odd test-example-line-5">999999 1</div><div class="test-example-line test-example-line-odd test-example-line-5">1000000 1</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006777196543015654" id="id004265299117587191" class="input-output-copier">Copy</div></div><pre data-content="YES
-YES
-NO
-YES
-YES
-" id="id006777196543015654"><div class="test-example-line test-example-line-odd test-example-line-1">YES</div><div class="test-example-line test-example-line-even test-example-line-2">YES</div><div class="test-example-line test-example-line-odd test-example-line-3">NO</div><div class="test-example-line test-example-line-even test-example-line-4">YES</div><div class="test-example-line test-example-line-odd test-example-line-5">YES</div></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, consider applying the following operations: </p><ul> <li> Apply $$$a[1] := a[1] + 2$$$ </li><li> Apply $$$a[2] := 2 \cdot a[2] + k$$$ </li><li> Apply $$$a[3] := a[3] - 2$$$ </li></ul> As a result of these operations, $$$a$$$ becomes $$$[3, 8, 5]$$$, which is a permutation of $$$[5, 3, 8]$$$.<p>In the second test case, we can apply the operation $$$a[1] := 2\cdot a[1] + k$$$ to make $$$a = [1]$$$.</p><p>In the third test case, we can show that there is no way to make $$$a = [0]$$$.</p></div>
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    n,k = map(int, input().split())
+    a = list(map(int, input().split()))
+    b = list(map(int, input().split()))
+    c=0
+    co=0
+    i=0
+    if k%2 == 0:
+        while i<n:
+            if a[i]%2 == 0:
+                c += 1
+            if b[i]%2 == 0:
+                co += 1
+            i += 1
+        if c <= co:
+            return "YES"
+ 
+    elif k%2 != 0:
+        while i<n:
+            if a[i]%2 == 0:
+                c += 1
+            if b[i]%2 == 0:
+                co += 1
+            i += 1
+        if c >= co:
+            return "YES"
+ 
+    return "NO"
+ 
+def main():
+ 
+    t = int(input())
+    for _ in range(t):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
