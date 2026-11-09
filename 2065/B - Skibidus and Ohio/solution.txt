@@ -7,7 +7,6 @@ def solve():
     r =0
     while l<len(s):
         if s[l] == s[l-1]:
-            s = s.replace(s[l],"",1)
             return 1
         else:
             l += 1
