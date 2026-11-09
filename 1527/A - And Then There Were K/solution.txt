@@ -1,0 +1,19 @@
+import sys
+ 
+input = sys.stdin.readline
+def solve():
+    n = int(input())
+   
+    i = 1
+    while i*2<=n:
+        i*=2
+       
+    return i-1
+def main():
+   
+    t = int(input())
+    for _ in range(t):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
