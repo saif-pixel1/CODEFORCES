@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 29 | 15 |
+| 30 | 17 |
 
 ---
 
@@ -14,6 +14,7 @@
 
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (5)
+- [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (5)
 - [constructive algorithms](#constructive-algorithms) (3)
@@ -22,10 +23,11 @@
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (7)
 - [implementation](#implementation) (6)
-- [math](#math) (5)
+- [math](#math) (6)
 - [number theory](#number-theory) (2)
 - [sortings](#sortings) (2)
 - [strings](#strings) (4)
+- [ternary search](#ternary-search) (1)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -45,6 +47,12 @@
 | 2283B | [Rhythmic String](https://codeforces.com/contest/2283/problem/B) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2283/B%20-%20Rhythmic%20String/solution.txt) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.txt) |
 | 2284B | [Introduction to the Niche Internet](https://codeforces.com/contest/2284/problem/B) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2284/B%20-%20Introduction%20to%20the%20Niche%20Internet/solution.txt) |
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1996/A%20-%20Legs/solution.txt) |
 
 ### bitmasks
 
@@ -120,6 +128,7 @@
 | 1371A | [Magical Sticks](https://codeforces.com/contest/1371/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1371/A%20-%20Magical%20Sticks/solution.txt) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.py) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1901/A%20-%20Line%20Trip/solution.py) |
+| 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1996/A%20-%20Legs/solution.txt) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.txt) |
 
 ### number theory
@@ -144,6 +153,12 @@
 | 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.txt) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.py) |
+
+### ternary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1996/A%20-%20Legs/solution.txt) |
 
 ### two pointers
 
