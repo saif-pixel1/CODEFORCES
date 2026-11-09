@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 28 | 14 |
+| 29 | 15 |
 
 ---
 
@@ -14,6 +14,7 @@
 
 - [*special](#special) (1)
 - [Uncategorized](#uncategorized) (5)
+- [bitmasks](#bitmasks) (1)
 - [brute force](#brute-force) (5)
 - [constructive algorithms](#constructive-algorithms) (3)
 - [data structures](#data-structures) (1)
@@ -44,6 +45,12 @@
 | 2283B | [Rhythmic String](https://codeforces.com/contest/2283/problem/B) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2283/B%20-%20Rhythmic%20String/solution.txt) |
 | 2284A1 | [15K4JR3B (Easy Version)](https://codeforces.com/contest/2284/problem/A1) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2284/A1%20-%2015K4JR3B%20(Easy%20Version)/solution.txt) |
 | 2284B | [Introduction to the Niche Internet](https://codeforces.com/contest/2284/problem/B) | Unrated | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2284/B%20-%20Introduction%20to%20the%20Niche%20Internet/solution.txt) |
+
+### bitmasks
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1527A | [And Then There Were K](https://codeforces.com/contest/1527/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1527/A%20-%20And%20Then%20There%20Were%20K/solution.txt) |
 
 ### brute force
 
