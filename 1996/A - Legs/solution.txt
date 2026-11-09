@@ -1,16 +1,18 @@
 import sys
- 
 input = sys.stdin.readline
  
 def solve():
     n = int(input())
-    if n%4==0:
-        return n//4
-    return n//4 +1
-  
-   
+    p = 0
+    c=0
+    while p+4 <= n:
+        p += 4
+        c += 1
+    while p+2 <= n:
+        p += 2
+        c += 1
  
-    return c+1
+    return c
  
 def main():
  
@@ -20,3 +22,4 @@ def main():
  
 if __name__ == "__main__":
     main()
+ 
