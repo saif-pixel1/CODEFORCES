@@ -1,0 +1,23 @@
+import sys
+ 
+input = sys.stdin.readline
+def solve():
+    s = input().strip()
+    l =1
+    r =0
+    while l<len(s):
+        if s[l] == s[l-1]:
+            s = s.replace(s[l],"",1)
+            return 1
+        else:
+            l += 1
+    return len(s)
+ 
+def main():
+ 
+    t = int(input())
+    for _ in range(t):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
