@@ -1,0 +1,29 @@
+import sys
+ 
+input = sys.stdin.readline
+def solve():
+    n = int(input())
+    arr = list(map(int, input().split()))
+    c,l,m = 0,0,0
+    while l<n:
+        if m<arr[l]:
+            m = arr[l]
+ 
+        l += 1
+ 
+    r = 0
+    while r<n:
+        if m == arr[r]:
+            c += 1
+ 
+        r += 1
+    return c
+ 
+def main():
+ 
+    t = int(input())
+    for _ in range(t):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
