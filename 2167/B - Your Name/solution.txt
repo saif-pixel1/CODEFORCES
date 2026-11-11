@@ -1,0 +1,35 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    n = int(input())
+    s, t = input().strip().split()
+ 
+    l = 0
+    m = {}
+ 
+    while l < n:
+        m[s[l]] = m.get(s[l],0)+1
+        l += 1
+ 
+    l = 0
+    while l<n:
+        if t[l] not in m:
+            return "NO"
+ 
+        m[t[l]] -= 1
+ 
+        if m[t[l]] < 0:
+            return "NO"
+        l += 1
+ 
+    return "YES"
+ 
+def main():
+    tc = int(input())
+    for _ in range(tc):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
