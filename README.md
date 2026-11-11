@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 33 | 20 |
+| 35 | 20 |
 
 ---
 
@@ -23,12 +23,12 @@
 - [dp](#dp) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (2)
-- [greedy](#greedy) (7)
+- [greedy](#greedy) (8)
 - [implementation](#implementation) (6)
 - [math](#math) (7)
 - [number theory](#number-theory) (2)
-- [sortings](#sortings) (2)
-- [strings](#strings) (5)
+- [sortings](#sortings) (3)
+- [strings](#strings) (6)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (1)
 - [two pointers](#two-pointers) (1)
@@ -124,6 +124,7 @@
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1901/A%20-%20Line%20Trip/solution.py) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.py) |
 | 1968B | [Prefiquence](https://codeforces.com/contest/1968/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1968/B%20-%20Prefiquence/solution.txt) |
+| 2200A | [Eating Game](https://codeforces.com/contest/2200/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2200/A%20-%20Eating%20Game/solution.txt) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.txt) |
 
 ### implementation
@@ -162,6 +163,7 @@
 |---|---------|------------|----------|
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.txt) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.py) |
+| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2167/B%20-%20Your%20Name/solution.txt) |
 
 ### strings
 
@@ -172,6 +174,7 @@
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.py) |
 | 2065B | [Skibidus and Ohio](https://codeforces.com/contest/2065/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2065/B%20-%20Skibidus%20and%20Ohio/solution.txt) |
+| 2167B | [Your Name](https://codeforces.com/contest/2167/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2167/B%20-%20Your%20Name/solution.txt) |
 
 ### ternary search
 
