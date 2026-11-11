@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 36 | 20 |
+| 37 | 20 |
 
 ---
 
@@ -16,15 +16,15 @@
 - [Uncategorized](#uncategorized) (5)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (6)
+- [brute force](#brute-force) (7)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (3)
-- [data structures](#data-structures) (1)
+- [data structures](#data-structures) (2)
 - [dp](#dp) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (8)
-- [implementation](#implementation) (6)
+- [implementation](#implementation) (7)
 - [math](#math) (7)
 - [number theory](#number-theory) (2)
 - [sortings](#sortings) (4)
@@ -72,6 +72,7 @@
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/231/A%20-%20Team/solution.py) |
 | 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.txt) |
 | 894A | [QAQ](https://codeforces.com/contest/894/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/894/A%20-%20QAQ/solution.txt) |
+| 1200A | [Hotelier](https://codeforces.com/contest/1200/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1200/A%20-%20Hotelier/solution.txt) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.txt) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.py) |
 
@@ -93,6 +94,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1200A | [Hotelier](https://codeforces.com/contest/1200/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1200/A%20-%20Hotelier/solution.txt) |
 | 2275B | [Did Not Go to Print](https://codeforces.com/contest/2275/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2275/B%20-%20Did%20Not%20Go%20to%20Print/solution.txt) |
 
 ### dp
@@ -133,6 +135,7 @@
 |---|---------|------------|----------|
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Java 21](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/158/A%20-%20Next%20Round/solution.java) |
 | 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.py) |
+| 1200A | [Hotelier](https://codeforces.com/contest/1200/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1200/A%20-%20Hotelier/solution.txt) |
 | 1607A | [Linear Keyboard](https://codeforces.com/contest/1607/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1607/A%20-%20Linear%20Keyboard/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.py) |
 | 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.txt) |
