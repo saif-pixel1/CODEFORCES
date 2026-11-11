@@ -1,0 +1,35 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    n = int(input())
+    s = input().strip()
+    arr = [0] * 10
+    l = 0
+    while l<n:
+        if s[l] == "L":
+            for i in range(10):
+                if arr[i] == 0:
+                    arr[i] = 1
+                    break
+ 
+        elif s[l] == "R":
+            for i in range(9,-1,-1):
+                if arr[i] == 0:
+                    arr[i] = 1
+                    break
+ 
+        else:
+            el = int(s[l])
+            arr[el] = 0 # whst everey teh numbre is here el u hvae to free that room V.imp to note.....
+ 
+        l += 1
+ 
+    print("".join(map(str,arr)))
+ 
+def main():
+    solve()
+ 
+if __name__ == "__main__":
+    main()
