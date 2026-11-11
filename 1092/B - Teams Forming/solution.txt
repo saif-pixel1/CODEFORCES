@@ -1,0 +1,33 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    n = int(input())
+    arr= list(map(int, input().split()))
+    arr.sort()
+    c = 0 
+    l = 1
+    while l<n:
+        if arr[l] == arr[l-1]:
+            l+=2
+        else:
+            c+= arr[l] - arr[l-1]
+            l+=2
+    return c
+         
+            
+    
+    
+    
+    
+    
+ 
+ 
+def main():
+    print(solve())
+ 
+        
+ 
+if __name__ == "__main__":
+    main()
