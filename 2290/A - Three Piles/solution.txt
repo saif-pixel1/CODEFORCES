@@ -1,0 +1,22 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def solve():
+    arr = list(map(int, input().split()))
+    l = 0
+    while l<len(arr)-1:
+        if abs(arr[l] - arr[l+1]) == 1:
+            l += 1
+        else:
+            return "NO"
+    return "YES"
+ 
+def main():
+ 
+    t = int(input())
+    for _ in range(t):
+        print(solve())
+ 
+if __name__ == "__main__":
+    main()
