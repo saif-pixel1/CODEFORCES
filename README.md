@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 37 | 20 |
+| 38 | 21 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (5)
 - [binary search](#binary-search) (1)
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (7)
+- [brute force](#brute-force) (8)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (3)
 - [data structures](#data-structures) (2)
@@ -24,8 +24,9 @@
 - [games](#games) (1)
 - [geometry](#geometry) (2)
 - [greedy](#greedy) (8)
+- [hashing](#hashing) (1)
 - [implementation](#implementation) (7)
-- [math](#math) (7)
+- [math](#math) (8)
 - [number theory](#number-theory) (2)
 - [sortings](#sortings) (4)
 - [strings](#strings) (6)
@@ -75,6 +76,7 @@
 | 1200A | [Hotelier](https://codeforces.com/contest/1200/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1200/A%20-%20Hotelier/solution.txt) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.txt) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.py) |
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.txt) |
 
 ### combinatorics
 
@@ -129,6 +131,12 @@
 | 2200A | [Eating Game](https://codeforces.com/contest/2200/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2200/A%20-%20Eating%20Game/solution.txt) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.txt) |
 
+### hashing
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.txt) |
+
 ### implementation
 
 | # | Problem | Difficulty | Solution |
@@ -151,6 +159,7 @@
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.py) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [Python 3](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1901/A%20-%20Line%20Trip/solution.py) |
 | 1996A | [Legs](https://codeforces.com/contest/1996/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1996/A%20-%20Legs/solution.txt) |
+| 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.txt) |
 | 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2276/A%20-%20Perfect%20Sandwiches/solution.txt) |
 
 ### number theory
