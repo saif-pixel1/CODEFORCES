@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 39 | 21 |
+| 40 | 21 |
 
 ---
 
@@ -32,7 +32,7 @@
 - [strings](#strings) (6)
 - [ternary search](#ternary-search) (1)
 - [trees](#trees) (1)
-- [two pointers](#two-pointers) (1)
+- [two pointers](#two-pointers) (2)
 
 ---
 
@@ -209,6 +209,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1968B | [Prefiquence](https://codeforces.com/contest/1968/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/1968/B%20-%20Prefiquence/solution.txt) |
+| 2000B | [Seating in a Bus](https://codeforces.com/contest/2000/problem/B) | 800 | [PyPy 3-64](https://github.com/saif-pixel1/CODEFORCES/blob/HEAD/2000/B%20-%20Seating%20in%20a%20Bus/solution.txt) |
 
 ---
 
