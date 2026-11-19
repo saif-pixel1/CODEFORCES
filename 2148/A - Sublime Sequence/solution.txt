@@ -9,9 +9,7 @@ def solve():
     elif n & 1 == 0:
         # even 
         return 0
-        
-        
- 
+    
  
 def main():
     
