@@ -1,0 +1,26 @@
+import sys
+ 
+input = sys.stdin.readline
+ 
+def main():
+ 
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+ 
+        occupied = set()
+        valid = True
+    
+        for seat in a:
+            if occupied:
+                if seat - 1 not in occupied and seat + 1 not in occupied:
+                    valid = False
+                    break
+    
+            occupied.add(seat)
+    
+        print("YES" if valid else "NO")
+ 
+if __name__ == "__main__":
+    main()
